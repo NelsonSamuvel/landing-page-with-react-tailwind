@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="mx-auto max-w-[1200px] grid-cols-2 grid-rows-2 gap-4 md:grid">
+      <div className="mx-auto gap-4 md:grid md:max-w-[1200px] md:grid-cols-2 md:grid-rows-2 lg:grid-cols-[750px_1fr]">
         <Hero />
         <Faq />
         <Features />

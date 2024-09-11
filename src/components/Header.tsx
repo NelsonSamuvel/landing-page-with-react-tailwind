@@ -9,8 +9,8 @@ const Header = () => {
 
 
   return (
-    <header>
-      <div className="container-main  flex items-center justify-between">
+    <header className=''>
+      <div className="container-main flex items-center justify-between">
         <h1 className="h1 cursor-pointer tracking-widest">W.</h1>
         <NavList/>
         <HiMenu
